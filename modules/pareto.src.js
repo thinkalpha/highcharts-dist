@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.4.0 (2024-03-05)
+ * @license Highcharts JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Pareto series type for Highcharts
  *
@@ -237,7 +237,7 @@
          * @product   highcharts
          * @apioption series.pareto.data
          */
-        ''; // keeps doclets above separate
+        ''; // Keeps doclets above separate
         /* *
          *
          *  Default Export

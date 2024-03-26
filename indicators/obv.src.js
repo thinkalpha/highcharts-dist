@@ -1,5 +1,5 @@
 /**
- * @license Highstock JS v11.4.0 (2024-03-05)
+ * @license Highstock JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Indicator series type for Highcharts Stock
  *
@@ -81,13 +81,13 @@
                     for (i; i < yVal.length; i++) {
                         curentClose = hasOHLC ?
                             yVal[i][3] : yVal[i];
-                        if (curentClose > previousClose) { // up
+                        if (curentClose > previousClose) { // Up
                             curentOBV = previousOBV + volume[i];
                         }
-                        else if (curentClose === previousClose) { // constant
+                        else if (curentClose === previousClose) { // Constant
                             curentOBV = previousOBV;
                         }
-                        else { // down
+                        else { // Down
                             curentOBV = previousOBV - volume[i];
                         }
                         // Add point.
@@ -184,7 +184,7 @@
          * @requires  stock/indicators/obv
          * @apioption series.obv
          */
-        ''; // to include the above in the js output
+        ''; // To include the above in the js output
 
         return OBVIndicator;
     });

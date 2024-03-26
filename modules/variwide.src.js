@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.4.0 (2024-03-05)
+ * @license Highcharts JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Highcharts variwide module
  *
@@ -310,7 +310,7 @@
          * @product   highcharts
          * @apioption series.variwide.data.z
          */
-        ''; // adds doclets above to transpiled file
+        ''; // Adds doclets above to transpiled file
         /* *
          *
          *  Default Export

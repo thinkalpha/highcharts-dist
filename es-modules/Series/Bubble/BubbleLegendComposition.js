@@ -150,7 +150,7 @@ function getLinesHeights(legend) {
         legendItem = items[i].legendItem || {};
         legendItem2 = (items[i + 1] || {}).legendItem || {};
         if (legendItem.labelHeight) {
-            // for bubbleLegend
+            // For bubbleLegend
             items[i].itemHeight = legendItem.labelHeight;
         }
         if ( // Line break

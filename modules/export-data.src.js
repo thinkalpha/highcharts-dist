@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.4.0 (2024-03-05)
+ * @license Highcharts JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Exporting module
  *
@@ -448,7 +448,7 @@
          * @requires  modules/export-data
          * @apioption plotOptions.series.includeInDataExport
          */
-        (''); // keep doclets above in JS file
+        (''); // Keep doclets above in JS file
 
         return ExportDataDefaults;
     });

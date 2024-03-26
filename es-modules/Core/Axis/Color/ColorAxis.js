@@ -86,7 +86,7 @@ class ColorAxis extends Axis {
         axis.reversed = userOptions.reversed || !horiz;
         axis.opposite = !horiz;
         super.init(chart, userOptions, 'colorAxis');
-        // Super.init saves the extended user options, now replace it with the
+        // `super.init` saves the extended user options, now replace it with the
         // originals
         this.userOptions = userOptions;
         if (isArray(chart.userOptions.colorAxis)) {
@@ -269,7 +269,7 @@ class ColorAxis extends Axis {
         let colorValArray, colorKey, colorValIndex, pointArrayMap, calculatedExtremes, cSeries, i = series.length, yData, j;
         this.dataMin = Infinity;
         this.dataMax = -Infinity;
-        while (i--) { // x, y, value, other
+        while (i--) { // X, y, value, other
             cSeries = series[i];
             colorKey = cSeries.colorKey = pick(cSeries.options.colorKey, cSeries.colorKey, cSeries.pointValKey, cSeries.zoneAxis, 'y');
             pointArrayMap = cSeries.pointArrayMap;
@@ -571,4 +571,4 @@ export default ColorAxis;
  *
  * @typedef {"linear"|"logarithmic"} Highcharts.ColorAxisTypeValue
  */
-''; // detach doclet above
+''; // Detach doclet above

@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.4.0 (2024-03-05)
+ * @license Highcharts JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Dependency wheel module
  *
@@ -282,7 +282,7 @@
          *
          * @apioption series.dependencywheel.nodes.dataLabels
          */
-        ''; // keeps doclets above separate
+        ''; // Keeps doclets above separate
         /* *
          *
          *  Default Export

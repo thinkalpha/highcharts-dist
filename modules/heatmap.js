@@ -1,5 +1,5 @@
 !/**
- * Highmaps JS v11.4.0 (2024-03-04)
+ * Highmaps JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * (c) 2009-2024 Torstein Honsi
  *

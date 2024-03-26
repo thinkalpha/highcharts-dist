@@ -1,5 +1,5 @@
 /**
- * @license Highstock JS v11.4.0 (2024-03-05)
+ * @license Highstock JS v11.4.0-nightly.20240326 (2024-03-26)
  *
  * Indicator series type for Highcharts Stock
  *
@@ -127,7 +127,7 @@
          * @requires  stock/indicators/tema
          * @apioption series.trix
          */
-        ''; // to include the above in the js output
+        ''; // To include the above in the js output
 
         return TRIXIndicator;
     });

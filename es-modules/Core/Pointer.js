@@ -100,7 +100,7 @@ class Pointer {
                 Pointer.unbindDocumentTouchEnd = (Pointer.unbindDocumentTouchEnd());
             }
         }
-        // memory and CPU leak
+        // Memory and CPU leak
         clearInterval(pointer.tooltipTimeout);
         objectEach(pointer, function (_val, prop) {
             pointer[prop] = void 0;
@@ -1163,7 +1163,7 @@ class Pointer {
             tooltip.shared :
             false);
         let hoverPoint = p || chart.hoverPoint, hoverSeries = hoverPoint && hoverPoint.series || chart.hoverSeries;
-        const // onMouseOver or already hovering a series with directTouch
+        const // `onMouseOver` or already hovering a series with directTouch
         isDirectTouch = (!e || e.type !== 'touchmove') && (!!p || ((hoverSeries && hoverSeries.directTouch) &&
             pointer.isDirectTouch)), hoverData = this.getHoverData(hoverPoint, hoverSeries, series, isDirectTouch, shared, e);
         // Update variables from hoverData.
@@ -1555,4 +1555,4 @@ export default Pointer;
 * @name Highcharts.SelectEventObject#yAxis
 * @type {Array<Highcharts.SelectDataObject>}
 */
-''; // keeps doclets above in JS file
+''; // Keeps doclets above in JS file
