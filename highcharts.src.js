@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v11.4.0 (2024-03-05)
+ * @license Highcharts JS v11.4.0 (2024-04-01)
  *
  * (c) 2009-2024 Torstein Honsi
  *
@@ -37671,9 +37671,7 @@
                                 // operation has finished.
                                 axis.isPanning = trigger !== 'zoom';
                                 axis.setExtremes(reset ? void 0 : newMin, reset ? void 0 : newMax, false, false, { move, trigger, scale });
-                                if (!reset &&
-                                    (newMin > floor || newMax < ceiling) &&
-                                    trigger !== 'mousewheel') {
+                                if (!reset && (newMin > floor || newMax < ceiling)) {
                                     displayButton = true;
                                 }
                             }

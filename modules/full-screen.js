@@ -1,5 +1,5 @@
 !/**
- * Highstock JS v11.4.0 (2024-03-04)
+ * Highstock JS v11.4.0 (2024-04-01)
  *
  * Advanced Highcharts Stock tools
  *

@@ -2670,9 +2670,7 @@ class Chart {
                         // operation has finished.
                         axis.isPanning = trigger !== 'zoom';
                         axis.setExtremes(reset ? void 0 : newMin, reset ? void 0 : newMax, false, false, { move, trigger, scale });
-                        if (!reset &&
-                            (newMin > floor || newMax < ceiling) &&
-                            trigger !== 'mousewheel') {
+                        if (!reset && (newMin > floor || newMax < ceiling)) {
                             displayButton = true;
                         }
                     }

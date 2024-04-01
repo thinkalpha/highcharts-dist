@@ -1,5 +1,5 @@
 !/**
- * Highcharts Gantt JS v11.4.0 (2024-03-04)
+ * Highcharts Gantt JS v11.4.0 (2024-04-01)
  *
  * Tree Grid
  *

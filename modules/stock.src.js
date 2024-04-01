@@ -1,5 +1,5 @@
 /**
- * @license Highstock JS v11.4.0 (2024-03-05)
+ * @license Highstock JS v11.4.0 (2024-04-01)
  *
  * Highcharts Stock as a plugin for Highcharts
  *
@@ -7757,8 +7757,8 @@
                 // Check the edges
                 if (horiz) {
                     limit = {
-                        left: left - crossBox.x,
-                        right: left + axis.width - crossBox.x
+                        left,
+                        right: left + axis.width
                     };
                 }
                 else {
